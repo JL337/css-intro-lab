@@ -1,47 +1,45 @@
-body{
+/* Change font size for entire body of text*/
+	body{
 	font-family: Arial;
 }
 
-.block1{
+/* Controls the photo of the phone, left body*/
+.phone {
+	display: inline-block;
+	float: left;
+	padding-right: 30px;
+	padding-top: 80px;
+	padding-left: 350px;
+	width: 20%;
+	}
+
+/*Scaling*/
+.phone img {
+	width: 100%;
+}
+
+/*The main fill in details box*/
+.mainblock{
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
 	border: 1px solid grey;
 	margin-top: 50px;
 	margin-bottom: 5px;
+	width: 25%;
 }
 
-.block2{
+/*second box, have an account log in*/
+.haveaccount{
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
 	border: 1px solid grey;
 	margin-top: 5px;
+	width: 25%;
 }
 
-.block3 img{
-	display: inline-block;
-	margin-top: 5px;
-	width: 150px;
-	height: 50px;
-
-}
-
-.account{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 70px;
-	padding-right: 70px;
-}
-
-.phone {
-	display: inline-block;
-	float: left;
-	padding-right: 30px;
-	padding-top: 50px;
-	padding-left: 350px;
-	}
-
+/*formats the line spacing for */
 p span, .friends {
 	display: block;
 	padding-right: 40px;
@@ -67,14 +65,25 @@ input[type="text"]{
 }
 
 .getapp {
-	padding-right: 115px;
-	padding-left: 115px;
 	display: inline-block;
-	text-align: center;
 	vertical-align: middle;
+	text-align: center;
 	border:none;
-	margin-top: 5px;
+	margin:none;
+	width:118%;
 }
 
+.appstores img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-right: 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	width: 10%;
+}
 
-
+.footer p {
+	font-size: 12px;
+	text-align: center;
+}
