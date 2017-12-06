@@ -2,87 +2,90 @@
 	body{
 	font-family: Arial;
 }
-
 /* Controls the photo of the phone, left body*/
 .phone {
-	display: inline-block;
+	display: inline-block; 
+/*Horizontally center images and text*/
 	float: left;
+/*float the picture to left hand side*/
 	padding-right: 30px;
 	padding-top: 80px;
 	padding-left: 350px;
 	width: 20%;
 	}
-
-/*Scaling*/
+/*Scaling for main image*/
 .phone img {
 	width: 100%;
 }
-
 /*The main fill in details box*/
 .mainblock{
 	display: inline-block;
 	text-align: center;
-	vertical-align: middle;
 	border: 1px solid grey;
 	margin-top: 50px;
 	margin-bottom: 5px;
-	width: 25%;
+	width: 22%;
 }
-
-/*second box, have an account log in*/
+/*formats the line spacing for search boxes */
+.insert {
+	padding: 10px;
+	margin: 0 auto;
+/**/
+	width: 90%;
+}
+/*Changes border style of search boxes*/
+input[type="text"]{
+	width: 250px;
+	height: 25px;
+	border-radius: 5px;
+}
+/*second box, existing account log in*/
 .haveaccount{
 	display: inline-block;
 	text-align: center;
-	vertical-align: middle;
 	border: 1px solid grey;
 	margin-top: 5px;
-	width: 25%;
+	width: 22%;
 }
-
 /*formats the line spacing for */
 p span, .friends {
 	display: block;
 	padding-right: 40px;
 	padding-left: 40px;
 	}
-
+/*formats the line spacing and colours of facebook and submit buttons*/
 .button, .submit {
 	 background-color:#41aadb;   /*FaceBook Blue*/
+	 display: inline-block;
+	 margin: 0 auto;
 	 border: none;
 	 color: white;
 	 padding: 3px;
 	 font-size: 13px;
+	 width: 70%;
 }
-
-.insert {
-	padding: 10px;
-}
-
-input[type="text"]{
-	width: 200px;
-	height: 20px;
-	border-radius: 5px;
-}
-
+/*Text for get app*/
 .getapp {
 	display: inline-block;
-	vertical-align: middle;
 	text-align: center;
 	border:none;
 	margin:none;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
 	width:118%;
 }
-
-.appstores img{
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 5px;
-	padding-right: 5px;
-	padding-left: 10px;
-	margin-bottom: 10px;
-	width: 10%;
+.applestore img{
+	display: block;
+	width: 5%;
 }
-
+/*Images of get from app stores*/
+.googleplay img{
+	display: block;
+	width: 5%;
+}
+/*footer contains other links to pages*/
 .footer p {
 	font-size: 12px;
 	text-align: center;
