@@ -24,7 +24,7 @@
 	border: 1px solid grey;
 	margin-top: 50px;
 	margin-bottom: 5px;
-	width: 22%;
+	width: 23%;
 }
 /*formats the line spacing for search boxes */
 .insert {
@@ -70,19 +70,27 @@ p span, .friends {
 	text-align: center;
 	border:none;
 	margin:none;
-
-    margin-left: auto;
-    margin-right: auto;
     height: 30px;
-	width:118%;
+    margin-left: 780px;
+    padding-bottom: 10px;
 }
+/*Image apple store*/
 .applestore img{
-	display: block;
+	display: inline-block;
+	float: left;
+	margin-left: 750px;
+}
+/*Scaling for apple store image*/
+.applestore img {
 	width: 5%;
 }
-/*Images of get from app stores*/
+/*Image gogle play store*/
 .googleplay img{
-	display: block;
+	display: inline-block;
+	margin-left: 10px;
+}
+/*Scaling for google play store*/
+.googleplay img {
 	width: 5%;
 }
 /*footer contains other links to pages*/
